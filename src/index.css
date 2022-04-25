@@ -1,0 +1,115 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.App {
+	max-width: 1200px;
+	margin: 50px auto;
+}
+a {
+	text-decoration: none;
+	color: #fff;
+}
+.app_text {
+	text-align: center;
+	text-transform: capitalize;
+	font-size: 29px;
+	margin: 40px 0;
+}
+.app_table-action {
+	display: flex;
+	margin: 0 10px;
+}
+
+.btn_outline:hover {
+	color: #fff;
+	background-color: #1aa659;
+	border-color: #1aa659;
+	cursor: pointer;
+	padding: 5px;
+	border-radius: 5px;
+}
+.btn_outline {
+	color: #198754;
+	border-color: #1aa659;
+	cursor: pointer;
+	padding: 5px;
+	border-radius: 5px;
+}
+.table_add-btn {
+	border: none;
+	padding: 10px;
+	border-radius: 8px;
+	background-color: #4da759;
+	color: #fff;
+	font-size: 20px;
+	text-transform: capitalize;
+	cursor: pointer;
+	margin: 10px 0px;
+}
+.table_add-btn-disable {
+	border: none;
+	padding: 10px;
+	border-radius: 8px;
+	background-color: #4da7598a;
+	color: #fff;
+	font-size: 20px;
+	text-transform: capitalize;
+	cursor: pointer;
+	margin: 10px 0px;
+}
+.tabe_add-btncontainer {
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+}
+.input__label__error__color {
+	color: #a94442 !important;
+}
+.input__label {
+	font-size: 14px;
+	font-weight: normal;
+	color: #616161;
+	margin-bottom: 5px;
+}
+.input__error__icon {
+	position: absolute;
+	z-index: 222;
+	display: inline;
+	color: #ffffffff;
+	margin-left: 2px;
+}
+.form-control.is-invalid:focus,
+.was-validated .form-control:invalid:focus {
+	border-color: #dc3545;
+	box-shadow: none !important;
+	border: 2px solid red !important;
+}
+.form-control.is-invalid,
+.was-validated .form-control:invalid {
+	background-image: none;
+}
+input.form-control::placeholder {
+	color: #d1cbc9;
+}
+.form-control.is-valid:focus,
+.was-validated .form-control:valid:focus {
+	box-shadow: none !important;
+}
+.input__error__container {
+	background-color: #e4655f;
+	color: #fff;
+	margin-top: 3px;
+	font-size: 12px;
+	padding: 2px 2px 2px 23px;
+	display: inline-block;
+	margin-bottom: 0 !important;
+}
+.input__error__icon {
+	position: absolute;
+	z-index: 222;
+	display: inline;
+	color: #ffffffff;
+	margin-left: 2px;
+}
